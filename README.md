@@ -1,2 +1,2 @@
 # utils
-Utility classes and functions
+Utility classes and functions.
