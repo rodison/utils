@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BooleanUtilsTest {
+class BooleanUtils_IntegerToBooleanTest {
 
 	@Test
 	void givenIntegerToBoolean_whenAnInteger0IsPassed_thenReturnFalse() {
@@ -24,26 +24,6 @@ class BooleanUtilsTest {
 	@Test
 	void givenIntegerToBoolean_whenAnInteger3IsPassed_thenReturnFalse() {
 		assertFalse(BooleanUtils.integerToBoolean(3));
-	}
-
-	@Test
-	void givenIntegerToBool_whenAnInteger0IsPassed_thenReturnFalse() {
-		assertFalse(BooleanUtils.integerToBool(0));
-	}
-
-	@Test
-	void givenIntegerToBool_whenAnInteger1IsPassed_thenReturnTrue() {
-		assertTrue(BooleanUtils.integerToBool(1));
-	}
-
-	@Test
-	void givenIntegerToBool_whenANullIntegerIsPassed_thenReturnFalse() {
-		assertFalse(BooleanUtils.integerToBool(null));
-	}
-
-	@Test
-	void givenIntegerToBool_whenAnInteger3IsPassed_thenReturnFalse() {
-		assertFalse(BooleanUtils.integerToBool(3));
 	}
 
 }
