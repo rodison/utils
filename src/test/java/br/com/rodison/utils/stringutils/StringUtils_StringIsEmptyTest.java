@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class StringUtilsTest {
+class StringUtils_StringIsEmptyTest {
 
 	@Test
 	void givenStringIsEmpty_whenAString_Empty_IsPassed_thenReturnTrue() {
