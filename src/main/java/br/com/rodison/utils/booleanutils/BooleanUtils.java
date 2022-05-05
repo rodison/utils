@@ -8,11 +8,11 @@ public class BooleanUtils {
 
 	}
 
-	public static Boolean integerToBoolean(Integer value) {
+	public static Boolean integerToBoolean(final Integer value) {
 		return (value != null && value.equals(1));
 	}
 
-	public static boolean integerToBool(Integer value) {
+	public static boolean integerToBool(final Integer value) {
 		return (value != null && value.equals(1));
 	}
 
@@ -26,7 +26,7 @@ public class BooleanUtils {
 	 * @param value
 	 * @return boolean
 	 */
-	public static boolean stringToBool(String value) {
+	public static boolean stringToBool(final String value) {
 		return value != null && !value.equalsIgnoreCase("FALSE") && !value.equalsIgnoreCase("OFF")
 				&& !value.equalsIgnoreCase("NO") && !value.equals("0") && !stringIsEmpty(value);
 	}

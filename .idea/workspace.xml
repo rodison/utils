@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d59605ee-ad5c-4535-a7b5-b13a2a7fe066" name="Changes" comment="StringUtils: replace()">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/rodison/utils/stringutils/StringUtils_LengthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rodison/utils/stringutils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rodison/utils/stringutils/StringUtils.java" afterDir="false" />
+    <list default="true" id="d59605ee-ad5c-4535-a7b5-b13a2a7fe066" name="Changes" comment="StringUtils: length()">
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rodison/utils/booleanutils/BooleanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rodison/utils/booleanutils/BooleanUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651718686748</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="StringUtils: length()">
+      <created>1651760739122</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651760739122</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +301,8 @@
     <MESSAGE value="StringUtils: substring()" />
     <MESSAGE value="StringUtils: trim()" />
     <MESSAGE value="StringUtils: replace()" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringUtils: replace()" />
+    <MESSAGE value="StringUtils: length()" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringUtils: length()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
