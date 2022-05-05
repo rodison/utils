@@ -40,4 +40,11 @@ public class StringUtils {
 		}
 		return substring(string, beginIndex, string.length());
 	}
+
+	public static String trim(String string) {
+		if (string == null) {
+			return "";
+		}
+		return string.trim();
+	}
 }

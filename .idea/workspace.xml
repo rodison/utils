@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d59605ee-ad5c-4535-a7b5-b13a2a7fe066" name="Changes" comment="StringUtils: uppercaseString() and lowercaseString()">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/rodison/utils/stringutils/StringUtils_SubstringTest.java" afterDir="false" />
+    <list default="true" id="d59605ee-ad5c-4535-a7b5-b13a2a7fe066" name="Changes" comment="StringUtils: substring()">
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/rodison/utils/stringutils/StringUtils_TrimTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rodison/utils/stringutils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rodison/utils/stringutils/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +90,7 @@
       <recent name="br.com.rodison.utils.booleanutils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtils_SubstringTest">
+  <component name="RunManager" selected="JUnit.StringUtils_TrimTest">
     <configuration name="BooleanUtils_StringToBoolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utils" />
       <extension name="coverage">
@@ -101,22 +102,6 @@
       <option name="PACKAGE_NAME" value="br.com.rodison.utils.booleanutils" />
       <option name="MAIN_CLASS_NAME" value="br.com.rodison.utils.booleanutils.BooleanUtils_StringToBoolTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BooleanUtils_StringToBoolTest.givenStringToBool_whenAString_TRUE_isPassed_thenReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="utils" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.rodison.utils.booleanutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.rodison.utils.booleanutils" />
-      <option name="MAIN_CLASS_NAME" value="br.com.rodison.utils.booleanutils.BooleanUtils_StringToBoolTest" />
-      <option name="METHOD_NAME" value="givenStringToBool_whenAString_TRUE_isPassed_thenReturnTrue" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,6 +136,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringUtils_TrimTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rodison.utils.stringutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rodison.utils.stringutils" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rodison.utils.stringutils.StringUtils_TrimTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringUtils_UppercaseAndLowercaseStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utils" />
       <extension name="coverage">
@@ -168,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringUtils_TrimTest" />
         <item itemvalue="JUnit.StringUtils_SubstringTest" />
         <item itemvalue="JUnit.StringUtils_UppercaseAndLowercaseStringTest" />
         <item itemvalue="JUnit.BooleanUtils_StringToBoolTest" />
         <item itemvalue="JUnit.StringUtils_StringIsEmptyTest" />
-        <item itemvalue="JUnit.BooleanUtils_StringToBoolTest.givenStringToBool_whenAString_TRUE_isPassed_thenReturnTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651686426056</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="StringUtils: substring()">
+      <created>1651713945717</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651713945717</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +279,7 @@
     <MESSAGE value="jacoco added" />
     <MESSAGE value="BooleanUtils and StringUtils.stringIsEmpty() added" />
     <MESSAGE value="StringUtils: uppercaseString() and lowercaseString()" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringUtils: uppercaseString() and lowercaseString()" />
+    <MESSAGE value="StringUtils: substring()" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringUtils: substring()" />
   </component>
 </project>
