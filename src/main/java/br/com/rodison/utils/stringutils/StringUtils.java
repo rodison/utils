@@ -58,4 +58,11 @@ public class StringUtils {
 		final String replaceByProcessed = replaceBy == null ? "" : replaceBy;
 		return string.replaceAll(expressionToReplace, replaceByProcessed);
 	}
+
+	public static int length(final String string) {
+		if (string == null) {
+			return 0;
+		}
+		return string.length();
+	}
 }

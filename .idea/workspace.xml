@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d59605ee-ad5c-4535-a7b5-b13a2a7fe066" name="Changes" comment="StringUtils: trim()">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/rodison/utils/stringutils/StringUtils_ReplaceTest.java" afterDir="false" />
+    <list default="true" id="d59605ee-ad5c-4535-a7b5-b13a2a7fe066" name="Changes" comment="StringUtils: replace()">
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/rodison/utils/stringutils/StringUtils_LengthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rodison/utils/stringutils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rodison/utils/stringutils/StringUtils.java" afterDir="false" />
     </list>
@@ -90,17 +90,17 @@
       <recent name="br.com.rodison.utils.booleanutils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtils_ReplaceTest">
-    <configuration name="BooleanUtils_StringToBoolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringUtils_LengthTest">
+    <configuration name="StringUtils_LengthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utils" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.rodison.utils.booleanutils.*" />
+          <option name="PATTERN" value="br.com.rodison.utils.stringutils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.rodison.utils.booleanutils" />
-      <option name="MAIN_CLASS_NAME" value="br.com.rodison.utils.booleanutils.BooleanUtils_StringToBoolTest" />
+      <option name="PACKAGE_NAME" value="br.com.rodison.utils.stringutils" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rodison.utils.stringutils.StringUtils_LengthTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringUtils_LengthTest" />
         <item itemvalue="JUnit.StringUtils_ReplaceTest" />
         <item itemvalue="JUnit.StringUtils_TrimTest" />
         <item itemvalue="JUnit.StringUtils_SubstringTest" />
         <item itemvalue="JUnit.StringUtils_UppercaseAndLowercaseStringTest" />
-        <item itemvalue="JUnit.BooleanUtils_StringToBoolTest" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651715749126</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="StringUtils: replace()">
+      <created>1651718686748</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651718686748</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,7 +295,8 @@
     <MESSAGE value="StringUtils: uppercaseString() and lowercaseString()" />
     <MESSAGE value="StringUtils: substring()" />
     <MESSAGE value="StringUtils: trim()" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringUtils: trim()" />
+    <MESSAGE value="StringUtils: replace()" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringUtils: replace()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
