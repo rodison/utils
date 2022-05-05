@@ -23,4 +23,21 @@ public class StringUtils {
 		}
 		return string.toLowerCase();
 	}
+
+	public static String substring(String string, int beginIndex, int endIndex) {
+		if (string == null || beginIndex > string.length()) {
+			return "";
+		}
+		if (endIndex > string.length()) {
+			return string.substring(beginIndex, string.length());
+		}
+		return string.substring(beginIndex, endIndex);
+	}
+
+	public static String substring(String string, int beginIndex) {
+		if (string == null) {
+			return "";
+		}
+		return substring(string, beginIndex, string.length());
+	}
 }
