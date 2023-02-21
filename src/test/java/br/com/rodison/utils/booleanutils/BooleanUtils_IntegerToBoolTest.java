@@ -1,5 +1,6 @@
 package br.com.rodison.utils.booleanutils;
 
+import br.com.rodison.utils.BooleanUtils;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

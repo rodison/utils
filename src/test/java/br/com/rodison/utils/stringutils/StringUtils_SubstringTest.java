@@ -1,5 +1,6 @@
 package br.com.rodison.utils.stringutils;
 
+import br.com.rodison.utils.StringUtils;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
