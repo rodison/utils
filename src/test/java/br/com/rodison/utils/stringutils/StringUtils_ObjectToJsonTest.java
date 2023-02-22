@@ -44,4 +44,6 @@ class StringUtils_ObjectToJsonTest {
         assertEquals(jsonExcepted, StringUtils.objectToJson(dto));
     }
 
+    // NAO CONSEGUI FAZER UM TESTE ONDE O objectToJson DAH UMA EXCEPTION
+
 }

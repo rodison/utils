@@ -172,6 +172,9 @@ public class StringUtils {
     }
 
     public static <T> T jsonToObject(String json, Class<T> dtoClass) {
+        if (StringUtils.stringIsEmpty(json)) {
+            return null;
+        }
         try {
             return JsonMapper.builder().addModule(new JavaTimeModule()).build().readValue(json, dtoClass);
         } catch (Exception e) {
